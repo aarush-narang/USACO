@@ -23,8 +23,5 @@ def main():
         if res: f.write('GO\n')
         else: f.write('STAY\n')
 
-    if res: print('GO')
-    else: print('STAY')
-
 if __name__ == '__main__':
     main()
