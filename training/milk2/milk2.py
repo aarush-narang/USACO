@@ -46,7 +46,7 @@ def calc_idle_time(times, overlap_start, overlap_end):
     # first remove all lists with None values
     times = [t for t in times if t != [None, None]]
     times.sort()
-    print(times)
+
     if len(times) == 1: return 0 # if there is only one pair of times, there is no idle time
     t = [0, 0]
     
